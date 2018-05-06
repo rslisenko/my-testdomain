@@ -1,0 +1,26 @@
+@import "inc/vars";
+//
+body {
+
+}
+a {
+	display: inline-block;
+}
+.site-btn,
+button,
+input[type="button"] {
+	display: inline-block;
+	background: $black;
+	color: $white;
+	padding: 15px 25px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	line-height: 1;
+	border: 1px solid transparent;
+	text-align: center;
+	&:hover {
+		border-color: $black;
+		background: $white;
+		color: $black;
+	}
+}

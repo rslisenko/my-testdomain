@@ -1,0 +1,53 @@
+2018-05-04T23:48:55+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-05-05T00:00:39+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-05-06T08:06:44+00:00 CRITICAL Uncaught Error: Call to undefined function post_categories_meta_box() in C:\xampp\htdocs\my-testdomain\wp-content\themes\testdomain\functions.php:104
+Stack trace:
+#0 C:\xampp\htdocs\my-testdomain\wp-includes\class-wp-hook.php(298): create_taxonomy('')
+#1 C:\xampp\htdocs\my-testdomain\wp-includes\class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\my-testdomain\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\my-testdomain\wp-settings.php(449): do_action('init')
+#4 C:\xampp\htdocs\my-testdomain\wp-config.php(47): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\my-testdomain\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\my-testdomain\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2018-05-06T08:06:46+00:00 CRITICAL Uncaught Error: Call to undefined function post_categories_meta_box() in C:\xampp\htdocs\my-testdomain\wp-content\themes\testdomain\functions.php:104
+Stack trace:
+#0 C:\xampp\htdocs\my-testdomain\wp-includes\class-wp-hook.php(298): create_taxonomy('')
+#1 C:\xampp\htdocs\my-testdomain\wp-includes\class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\my-testdomain\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\my-testdomain\wp-settings.php(449): do_action('init')
+#4 C:\xampp\htdocs\my-testdomain\wp-config.php(47): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\my-testdomain\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\my-testdomain\wp-admin\admin.php(31): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\my-testdomain\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown
+
+2018-05-06T08:06:46+00:00 CRITICAL Uncaught Error: Call to undefined function post_categories_meta_box() in C:\xampp\htdocs\my-testdomain\wp-content\themes\testdomain\functions.php:104
+Stack trace:
+#0 C:\xampp\htdocs\my-testdomain\wp-includes\class-wp-hook.php(298): create_taxonomy('')
+#1 C:\xampp\htdocs\my-testdomain\wp-includes\class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\my-testdomain\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\my-testdomain\wp-settings.php(449): do_action('init')
+#4 C:\xampp\htdocs\my-testdomain\wp-config.php(47): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\my-testdomain\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\my-testdomain\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2018-05-06T09:58:07+00:00 CRITICAL Uncaught Error: Call to undefined function str_replace_all() in C:\xampp\htdocs\my-testdomain\wp-content\themes\testdomain\functions.php:102
+Stack trace:
+#0 C:\xampp\htdocs\my-testdomain\wp-includes\class-wp-hook.php(300): {closure}('Shop')
+#1 C:\xampp\htdocs\my-testdomain\wp-includes\plugin.php(203): WP_Hook->apply_filters('Shop', Array)
+#2 C:\xampp\htdocs\my-testdomain\wp-includes\nav-menu.php(727): apply_filters('the_title', 'Shop', 4)
+#3 [internal function]: wp_setup_nav_menu_item(Object(WP_Post))
+#4 C:\xampp\htdocs\my-testdomain\wp-includes\nav-menu.php(646): array_map('wp_setup_nav_me...', Array)
+#5 C:\xampp\htdocs\my-testdomain\wp-includes\nav-menu-template.php(123): wp_get_nav_menu_items(Object(WP_Term), Array)
+#6 C:\xampp\htdocs\my-testdomain\wp-content\themes\twentyseventeen\template-parts\navigation\navigation-top.php(15): wp_nav_menu(Object(stdClass))
+#7 C:\xampp\htdocs\my-testdomain\wp-includes\template.php(686): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\my-testdomain\wp-includes\templat
+

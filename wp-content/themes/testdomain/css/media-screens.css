@@ -1,0 +1,28 @@
+@media only screen and (max-width: 767.98px) {
+  .show-for-desctop {
+    display: none; }
+
+  .site-footer .contact-info .site-btn {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto; } }
+@media only screen and (min-width: 768px) {
+  .show-for-mobile {
+    display: none; }
+
+  .site-footer .site-info {
+    width: 50%; }
+  .site-footer .contact-info {
+    width: 50%;
+    float: right; }
+    .site-footer .contact-info a {
+      display: block;
+      margin-bottom: 5px; }
+    .site-footer .contact-info p {
+      margin-bottom: 5px; }
+    .site-footer .contact-info .inner {
+      max-width: 200px;
+      margin-left: auto; } }
+
+

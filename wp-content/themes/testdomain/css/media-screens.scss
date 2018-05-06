@@ -1,0 +1,70 @@
+@import "inc/vars";
+// Extra small devices (portrait phones, less than 576px)
+@media only screen and (max-width: 575.98px) {
+
+}
+
+@media only screen and (max-width: 767.98px) {
+	.show-for-desctop {
+		display: none;
+	}
+	// footer
+	.site-footer {
+		.contact-info {
+			.site-btn {
+				display: block;
+				width: 300px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.show-for-mobile {
+		display: none;
+	}
+
+	// footer
+	.site-footer {
+		.site-info {
+			width: 50%;
+		}
+		.contact-info {
+			width: 50%;
+			float: right;
+			a {
+				display: block;
+				margin-bottom: 5px;
+			}
+			p {
+				margin-bottom: 5px;
+			}
+			.inner {
+				max-width: 200px;
+				margin-left: auto;
+			}
+		}
+	}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media only screen and (min-width: 1200px) {
+
+}
