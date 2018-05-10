@@ -51,3 +51,5 @@ Stack trace:
 #7 C:\xampp\htdocs\my-testdomain\wp-includes\template.php(686): require('C:\\xampp\\htdocs...')
 #8 C:\xampp\htdocs\my-testdomain\wp-includes\templat
 
+2018-05-10T16:45:41+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
